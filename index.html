@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header_links">
+            <div class="header_left">
+                <img src="icon-white2.png" width="30px" alt="">PomoFocus
+            </div>
+            <div class="header_right">
+                <div onclick="report()" class="right_links rel"><img src="graph-white.png" width="30px" alt="">Report
+                </div>
+                <div class="right_links"><img src="config-white.png" width="30px" alt="">Setting</div>
+                <div class="right_links"><img src="user-white.png" width="30px" alt="">Sighn In</div>
+                <div class="tochki"><img src="threedots-white.png" width="30px" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="timer">
+            <div class="pomodoro">Pomodoro</div>
+            <div class="short-break">Short-break</div>
+            <div class="long-break">Long-break</div>
+        </div>
+        <div class="text">25:00</div>
+        <div class="start">START</div>
+    </div>
+    <div onclick="report()" class="setting">
+        <div class="header_set">
+            <h1>Setting</h1>
+            <div class="boxes">
+                <div class="box1"></div>
+                <div class="box2"></div>
+            </div>
+        </div>
+        <div class="liner"></div>
+        <h2>Timer</h2>
+        <h3>Time(minutes)</h3>
+        <div class="timers">
+            <div oninput="input()" class="pomodoro1 inni">
+                <h4>Pomodoro</h4>
+                <input type="number"class="pomodoro-input">
+            </div>
+            <div class="short-break1 inni">
+                <h4>Short-break</h4>
+                <input type="number" class="short-break-input">
+            </div>
+            <div class="long-break1 inni">
+                <h4>long-break</h4>
+                <input type="number"class="long-break-input">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
